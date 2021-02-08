@@ -1,0 +1,55 @@
+.component {
+  background-color: #fff;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 800px) {
+}
+.component__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.component__top ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #006bb6;
+  font-size: 14px;
+}
+.component__top ul li {
+  margin-bottom: 10px;
+}
+.component__top ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.add {
+  font-size: 35px;
+  transition: all 0.4s;
+  border: 10px solid #fff;
+}
+.add:hover {
+  background-color: #ebebeb;
+  border-radius: 50%;
+  font-size: 35px;
+
+  border: 10px solid #ebebeb;
+  cursor: pointer;
+}
+.discover {
+  padding: 10px 0;
+}
+.discover > h6 {
+  font-size: 12px;
+  font-weight: 550;
+  color: #747272;
+}
+.discover:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}

@@ -1,0 +1,139 @@
+.sidebar {
+  flex: 0.15;
+  left: 0px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .sidebar {
+    flex: 0.3;
+    min-width: 250px;
+  }
+}
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+.sidebar__top {
+  background: linear-gradient(to bottom, #4568dc, #b06ab3);
+  border-radius: 10px;
+  padding-top: 60px;
+}
+.top__data {
+  background-color: #ffff;
+  height: fit-content;
+}
+.top__data img {
+  height: 70px;
+  width: 70px;
+  margin-top: -30px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.top__data > h4 {
+  font-size: 17px;
+  color: #191919;
+  font-weight: 500;
+}
+.top__data > h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.top__data > p {
+  font-size: 13px;
+  color: #666666;
+  font-weight: 300;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.line {
+  height: 0.1px;
+  width: 100%;
+  background-color: lightgray;
+}
+.sidebar__last {
+  width: 100%;
+  padding-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.connection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text > p {
+  font-size: small;
+  color: #8b8b8b;
+}
+.text > h6 {
+  color: #6d6b6b;
+  font-size: small;
+  cursor: pointer;
+}
+.connection > span {
+  color: blue;
+}
+.connection:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+.premium {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  cursor: pointer;
+}
+.premium:hover {
+  background: #ebebeb;
+  text-decoration: underline;
+}
+.premium > p {
+  font-size: small;
+}
+.custom > h6 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.custom {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.color {
+  height: 10px;
+  width: 10px;
+  background: linear-gradient(to bottom, #f2994a, #f2c94c);
+
+  margin-right: 10px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+}
+.items > h6 {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.bookmark {
+  background: #8b8b8b;
+}
+.items:hover {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ebebeb;
+}

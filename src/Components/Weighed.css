@@ -1,0 +1,51 @@
+.weigh {
+  flex: 0.2;
+  background: #fff;
+  flex: 0.25;
+  min-width: 350px;
+  margin-left: 20px;
+  height: fit-content;
+}
+@media (max-width: 1300px) {
+  .weigh {
+    display: none;
+  }
+}
+.weigh__container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 20px 10px;
+}
+.weigh__top {
+  display: flex;
+  justify-content: space-between;
+}
+.weigh__top > h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.rows {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cols {
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rows > p {
+  height: 10px;
+  width: 10px;
+
+  border-radius: 50%;
+  background-color: chartreuse;
+}
+.cols > h6 {
+  font-weight: 400;
+}
+.cols > p {
+  font-weight: 500px;
+}
